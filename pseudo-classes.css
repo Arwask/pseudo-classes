@@ -1,0 +1,22 @@
+.block
+{
+	float: left;
+	list-style: none;
+}
+
+.top
+{
+	display: inline-flex;
+}
+
+.inline
+{
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.n-child section:nth-child(even)
+{
+	border: 1px solid black;
+}
